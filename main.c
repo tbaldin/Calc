@@ -5,7 +5,12 @@ void porcent(float a, float b){
     x = (b*100)/a;
     printf("\n\nB e %2.f de A", x);
 }
+void mediaNumeros(int a,int b){
+    float med;
+    med = (a + b)/2;
 
+
+}
 
 
 
@@ -15,7 +20,7 @@ int main (){
     scanf("%d", &a);
     printf("\nDigite um numero B:\n");
     scanf("%d", &b);
-    int op,a,b;
+    int op;
 
     printf("Digite a operacao: \n\t0 - Porcentagem\n\t1 -Teste se Primo\n\t2 - Mostra primos entre numeros\n\t3 - Média entre Numeros");
     scanf("%d",&op);
@@ -46,7 +51,7 @@ int main (){
 
         case 4:
             printf("Média entre Numeros");
-            divisao(a,b);
+            mediaNumeros(a,b);
             break;
     }
 
