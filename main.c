@@ -1,6 +1,10 @@
 // calculcadora Taiane e Diego
 #include <stdio.h>
+void testePrimos(){
 
+
+
+}
 void porcent(float a, float b){
     float x;
     x = (b*100)/a;
@@ -9,6 +13,11 @@ void porcent(float a, float b){
 void mediaNumeros(int a,int b){
     float med;
     med = (a + b)/2;
+}
+void mostraPrimosEntre(){
+
+
+
 }
 
 
@@ -28,12 +37,14 @@ int main (){
             porcent(a,b);
             break;
         case 1:
-            printf("Teste se Primo");
+            printf("Teste se Primo\n");
+            testePrimos(a,b);
+            break;
+        case 2:
+            printf("Mostra primos entre numeros");
+            mostraPrimosEntre(a,b);
             break;
         case 3:
-            printf("Mostra primos entre numeros");
-            break;
-        case 4:
             printf("Média entre Numeros");
             mediaNumeros(a,b);
             break;
